@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "653aaae8a809310239c03a72"
+  },
+  "code": "653aaae8a809310239c03a71",
+  "name": "Michellea",
+  "lastName": "Nguyena",
+  "email": "rnb90@txstate.edu",
+  "phone": "5125125120",
+  "gender": "Female",
+  "birthdate": "2000-06-03",
+  "emergencyName1": "Michellae Nguyen",
+  "emergencyEmail1": "rnb90@txstate.edu",
+  "emergencyName2": "Michelle Nguyep",
+  "emergencyEmail2": "micnguyen2063@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "653ae5d5a8da6584d539f949"
+  },
+  "code": "653ae5d4a8da6584d539f913",
+  "name": "Jayce",
+  "lastName": "Turam",
+  "email": "jnn56@txstate.edu",
+  "phone": "5125125122",
+  "gender": "Male",
+  "birthdate": "1995-01-01",
+  "emergencyName1": "Jayce Tumram",
+  "emergencyEmail1": "jnn56@txstate.edu",
+  "emergencyName2": "Jaice Turabe",
+  "emergencyEmail2": "jnn57@txstate.edu"
+}]

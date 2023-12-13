@@ -1,0 +1,73 @@
+.navbar-content{
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:25px;
+  }
+  
+  .navigation-bar {
+    overflow: hidden;
+    background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 73%, rgba(226,100,172,1) 100%);
+  }
+  
+  .navigation-bar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-content: right;
+  }
+  
+  .navigation-bar a:hover {
+    background-color: rgba(226,100,172,0.25);
+    color: white;
+  }
+
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .navigation-bar a.split {
+    float: left;
+    color: white;
+  }
+
+  .navigation-bar .search-container {
+    float: right;
+  }
+  
+  .navigation-bar input[type=text] {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    width: 250px;
+    border: none;
+  }
+  
+}
+
+.search-icon{
+  float:right;
+}
+
+.search-box{
+  float:right;
+}
+
+.grid-navsearch{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

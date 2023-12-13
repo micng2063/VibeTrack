@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding:25px;
+  height:100%;
+}
+
+.intro-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 53%, rgba(226,100,172,1) 100%);
+    color: #fff;
+  }
+  
+  .intro-container h1 {
+    font-size: var(--fs-2); 
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: var(--fw-800);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .intro-container p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .selected-clubs-container {
+    background:  linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 53%, rgba(226,100,172,1) 100%);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size:17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .send-email-button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .venues-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .venues-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: 0;
+    color: #000;
+  }
+  
+  .venues-container li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size:12px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+.grid-safety{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+  padding-right:20px;
+}

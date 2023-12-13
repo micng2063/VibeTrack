@@ -1,0 +1,22 @@
+.form-group label {
+  color: black;
+
+}
+
+.form-group input {
+  background-color: #747474;
+  border-radius:25px;
+  color: white;
+}
+
+.form-check-inline {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+.form-check-inline input {
+  margin: 0;
+  margin-right: 5px;
+}
+

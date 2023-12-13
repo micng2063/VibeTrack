@@ -1,0 +1,26 @@
+/* Edit.css */
+
+/* Set text color to black */
+.form-group label {
+  color: black;
+
+}
+
+/* Set input box background to white */
+.form-group input {
+  background-color: #747474;
+  border-radius:25px;
+  color: white;
+}
+
+
+.form-check-inline {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust spacing between items if needed */
+  }
+  
+  .form-check-inline input {
+    margin: 0;
+    margin-right: 5px; /* Adjust spacing between input and label if needed */
+  }

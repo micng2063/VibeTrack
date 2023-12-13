@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "651dd70cdef90da69fac6c02"
+  },
+  "name": "Nilu Sah",
+  "position": "Admin",
+  "level": "Junior"
+},
+{
+  "_id": {
+    "$oid": "651dd712def90da69fac6c03"
+  },
+  "name": "Jayce Turambe",
+  "position": "Admin",
+  "level": "Junior"
+},
+{
+  "_id": {
+    "$oid": "651dd759def90da69fac6c04"
+  },
+  "name": "Isaiah Gage",
+  "position": "Admin",
+  "level": "Junior"
+},
+{
+  "_id": {
+    "$oid": "651dd75fdef90da69fac6c05"
+  },
+  "name": "Michelle Nguyen",
+  "position": "Admin",
+  "level": "Junior"
+},
+{
+  "_id": {
+    "$oid": "651dd764def90da69fac6c06"
+  },
+  "name": "Benu Liburd",
+  "position": "Admin",
+  "level": "Junior"
+},
+{
+  "_id": {
+    "$oid": "651dd7f639e15fb6b4807405"
+  },
+  "name": "Ted Lehr",
+  "position": "Supervisor",
+  "level": "Senior"
+},
+{
+  "_id": {
+    "$oid": "651e20af9e018c8edf7fb9bb"
+  },
+  "name": "Sarah Davidson",
+  "position": "Supervisor",
+  "level": "Senior"
+},
+{
+  "_id": {
+    "$oid": "651e20c89e018c8edf7fb9bc"
+  },
+  "name": "Mirna Elizondo",
+  "position": "Supervisor",
+  "level": "Senior"
+},
+{
+  "_id": {
+    "$oid": "651e478fbba267136438607b"
+  },
+  "name": "Name Lastname",
+  "position": "Position",
+  "level": "Senior"
+}]

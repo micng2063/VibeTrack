@@ -1,0 +1,141 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+}
+.modal {
+  position: fixed;
+  width:50vw;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 9999; /* Set a high z-index value */
+}
+ 
+ 
+.special-event{
+  background-repeat:no-repeat;  
+  background:  linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 53%, rgba(226,100,172,1) 100%);
+  background-size:cover;
+  background-attachment: fixed;
+  padding-bottom:20px;
+}
+ 
+.event-container {
+  font-family: "Roboto", sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}
+ 
+.event-container h3.year {
+  font-size: 40px;
+  text-align: center;
+  color:#000;
+  border-bottom: 1px solid #b1b1b1;
+}
+ 
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 15px;
+  background-color:#fff;
+  margin: 20px 0;
+}
+ 
+.event .event-left {
+  background: #222;
+  height:120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+ 
+.event .event-left .date {
+  font-size: 48px;
+}
+ 
+.event .event-left .month {
+  font-size: 16px;
+  font-weight: normal;
+}
+ 
+.event .event-right {
+  width:100%;
+  display: flex;
+  color: #000;
+  height:120px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+ 
+.event .event-right h3.event-title {
+  font-size: 20px;
+  margin: 24px 0 10px 0;
+  color: #ffffff;
+  width:450px;
+  background-color: #747474;
+  border-radius:5px;
+  padding:5px;
+  text-transform: uppercase;
+}
+ 
+.event .event-right .event-button {
+  background-color:#747474;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 8px;
+  color:#fff;
+  border-radius: 5px;
+  margin: 24px 0;
+  font-size: 14px;
+}
+ 
+.event-timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color:#fff;
+  font-size: 14px;
+}
+ 
+.event .event-right .event-timing img {
+  height: 20px;
+  padding-right: 8px;
+}
+ 
+.grid-event{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+ 
+.section-title { margin-bottom: 15px; color:black;
+  text-align: center; }
+ 
+.section-subtitle {
+  color: black;
+  font-size: var(--fs-5);
+  text-transform: uppercase;
+  font-family: var(--ff-montserrat);
+  text-align: center;
+}

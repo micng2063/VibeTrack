@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+  .actionColumn {
+    width: 5%;
+  }
+  
+  .addressColumn {
+    width: 25%;
+  }
+
+  .aboutColumn {
+    width: 35%;
+  }
+
+  .emailColumn, .emergencyColumn {
+    width:15%;
+  }
+
+  .nameColumn, .lastNameColumn, .phoneColumn, .websiteColumn, .genderColumn {
+    width: 10%;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
