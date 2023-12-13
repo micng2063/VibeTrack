@@ -50,10 +50,10 @@
 
 <a name="screenshots"></a>
 ## Screenshots 
-![Home](https://i.imgur.com/1B1BZ69.gif)
-![TripFinder](https://i.imgur.com/b0VBA1t.gif)
-![Safety and Alert](https://i.imgur.com/btdSVDQ.gif)
-![Login and User](https://i.imgur.com/UTQqDlt.gif)
+![Home](https://github.com/micnguyen-rnb90/VibeTrack/blob/main/Document/Screenshot-Home.gif)
+![TripFinder](https://github.com/micnguyen-rnb90/VibeTrack/blob/main/Document/Screenshot-TripFinder.gif)
+![Safety and Alert](https://github.com/micnguyen-rnb90/VibeTrack/blob/main/Document/Screenshot-InviteAlert.gif)
+![Login and User](https://github.com/micnguyen-rnb90/VibeTrack/blob/main/Document/Screenshot-Login.gif)
 
 <a name="project-status"></a>
 ## Project Status
