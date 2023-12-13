@@ -1,9 +1,13 @@
 # VibeTrack 
+* Course: CS 3398 - Software Engineering | Instructor: Dr. Ted Lehr, Senior Lecturer
+
 > A nightclub tracker web app that aims to provide an enhanced experience for customers, helping them discover nearby clubs that cater to their preferences and interests.
 
 > Live demo at [https://vibetrack.vercel.app/](https://vibetrack.vercel.app/) For our development branch, please visit [this branch](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/)
 
 ![Landing Page](https://i.imgur.com/hkGI2GY.png)
+
+| This reposition is a continuation following our team's original project for CS3398. The initial repository can be located on [our BitBucket account](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,7 +16,6 @@
 * [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [Installation and Setup](#setup)
-* [Sprint 3](#sprint-3) | [Sprint 2](#sprint-2) | [Sprint 1](#sprint-1)
 * [Room for Improvement](#room-for-improvement)
 * [Contact](#contact)
 
@@ -89,153 +92,6 @@ npm install --legacy-peer-deps
 npm start
 ```
 ![Output](https://i.imgur.com/Uznj5Rz.png)
-
-- - - -
-<a name="sprint-3"></a>
-## Sprint 3 Review
-### Review and Retrospective
-* In this sprint, our main objective is to further polish our planned features and seamlessly integrate all components to ensure readiness for deployment. 
-* [Sprint 3 Retrospective](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Retrospective.md)
-* Burnup report
-![Burnup Chart](https://i.imgur.com/q3ZXKkO.png)
-
-### Screenshots
-
-### Contributions
-* __Isaiah__: Implemented function to retrieve user's geolocation and saved contacts for Alert button on each Venue page. Attempted to deploy with Firebase
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Jira.md#isaiah) 
-* __Benu__: Implemented functions for user feedback and redirecting pages for error (500 Server Error, 404 Not Found)
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Jira.md#benu) 
-* __Michelle__: Resolve issues with CSS rendering on different browsers. Patched up components to be ready for deployment. Attempted to deploy with vercel.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Jira.md#michelle) 
-* __Nilu__: Implemented mini Invite button for each Event on Special Event page. Attempt to create email template.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Jira.md#nilu) 
-* __Jayce__: Implemented functions for Search feature: route finder function using react-leaflet-routing and search on map function.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint3_Jira.md#jayce) 
-
-### Future Implementation
-* Re-deploy with Firebase or other alternatives
-* Ensure web application is compatible and mobile-friendly
-* Transform our backend database of all  San Marcos venues into an open-source dataset and API
-
-- - - -
-<a name="sprint-2"></a>
-## Sprint 2 Review
-### Review and Retrospective
-* For this sprint, our primary goal is to implement the our major planned features, such as login/signup, search, safety alert/invitation. We also implemented additional functions that aim to enhance the user experience (rating, feedback, recommendation).
-* [Sprint 2 Retrospective](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Retrospective.md)
-* Burnup report
-![Burnup Chart](https://i.imgur.com/GnqQ1Yi.png)
-
-### Screenshots
-* __Homepage__ and __Discover__ and __Special Event__ 
-![Homepage, Discover and Special Event](https://i.imgur.com/vV0zUhs.png)
-
-* __Signup__ and __Password Reset__ 
-![Signup and Password Reset](https://i.imgur.com/iqKOYVT.png)
-
-* __Venue__,  __Search__, __User Profile__, and __Emergency Contact__ 
-![Venue, Search, User Profile and Emergency Contact](https://i.imgur.com/slPczc9.png)
-
-* __Invitation__ and __Safety__ 
-![Invitation and Safety](https://i.imgur.com/2fbKizV.png)
-
-### Contributions
-* __Isaiah__: Implemented a feature to send an email to an emergency contact
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Jira.md#isaiah) 
-* __Benu__: Implemented functions that aim to enhance and personalize user experiences, such as rating venue, getting recommendation, sending feedback, etc.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Jira.md#benu) 
-* __Michelle__: Implemented login and signup feature. Further expanded the database and worked on the interface for a more professional design.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Jira.md#michelle) 
-* __Nilu__: Implemented a feature of sending email to friends or families to join clubs & added CSS style to the page. Also, I successfully added the data from web scraping inside the container of my special event. 
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Jira.md#nilu) 
-* __Jayce__: Implemented a search feature where we have a function to sort the top 10 nearest clubs to the user, a function to search a deserted club by name and I incorporated the clubs marker on map. Also worked on css to stylize our search feature.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint2_Jira.md#jayce) 
-
-### Next Steps
-* __Isaiah__: 
-	* Implement mini Alert button into each Venue page
-	* Deploy application to Firebase/Heroku/etc.
-
-* __Benu__:
-	* Further modify the favorites to show current ratings of venues
-	* Finish the feedback function
-	* Implement more functions to enhance user experience.
-
-* __Michelle__: 
-	* Work with Jayce to combine the Discover and Search feature together. 
-	* Improve on user-related features to enhance security.
-	* Patch up Benu�s user experience enhancing functions into assigned component
-	* Look into using OpenAI for chatbox as customer support.
-
-* __Nilu__:
-	* Connect Special Event feature with react-calendar for each venue page
-	* Implement mini Invite button into Special Event page
- 
-* __Jayce__:
-	* Implement filter by tag feature
-	* Further implement search feature
-	* Implement SimpleGMap into application (if free) to show route
-
-
-### Issues to Resolve
-* Database: Reformat venue.address so that it can be trimmed and look nicer in Search/Discover function
-* Data: Data page changes parameter when clicking on other feature (e..g go to Safety), need to consider path restriction
-- - - -
-<a name="sprint-1"></a>
-
-## Sprint 1 Review
-### Review and Retrospective
-* For this sprint, our primary goal is to set up a web application for our nightclub tracker project with basic interface and features (Map, Calendar, Special Events). We are also working on the Database feature but will focus more onto that in Sprint 2.
-* [Sprint 1 Retrospective](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Retrospective.md)
-* Burnup report
-![Burnup Chart](https://i.imgur.com/33S2DqW.png)
-
-### Screenshots
-* __Homepage__ and __Discover__ (displaying all venue entries in our database)
-![Homepage and Discover](https://i.imgur.com/T4wKCAL.png)
-* __Record__ and __Data__ (displaying all venue entries in table form and displaying specific venue following a template)
-![Database record and specific venue listing](https://i.imgur.com/xyoETic.png)
-* __Special Event__ and __Create/Edit/Login/Safety__ (displaying upcoming events and prompting to edit/create new documents)
-![Special event and create/edit component](https://i.imgur.com/ZVCOVVj.png)
-
-### Contributions
-* __Isaiah__: Designed basic app sketeton and web scraped data for special event page
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Jira.md#isaiah) 
-* __Benu__: Research webscraping and how to make a MongoDB database, created basic database for venues using Excel.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Jira.md#benu) 
-* __Michelle__: Stylize interface, create a client/server connection and integrate database from MongoDB into project.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Jira.md#michelle) 
-* __Nilu__:Designed Special Event Page using HTML, CSS & javascript & added it to our Vibetrack
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Jira.md#nilu) 
-* __Jayce__: Incorporated Map API into web app, customized and adjusted Map (marker, view, and default coordination),
-			Implemented function to convert address to coordinate.
-	* [Jira task documentation](https://bitbucket.org/cs3398f23romulans/vibetrack/src/development/Document/Sprint1_Jira.md#jayce) 
-
-### Next Steps
-* __Isaiah__: 
-	* Create safety page with user options allowing them to choose what clubs they will visit that night
-	* Create option to add and invite friends to clubs that night
-* __Benu__:
-	* Create a database for the user information
-	* Possible favorite feature
-	* Possible review feature 
-	* created a test app for the basic star ratings function.
-* __Michelle__: 
-	* Continue expanding and integrating database into application (opening hours, social Media, image gallery)
-	* Continue improving interface to be more user-friendly and easy-to-navigate 
-	* Research and implement user authenthication (sign-in/-up) along with Benu
-* __Nilu__:
-	* I will continue to integrate database to the special event & add some more style to my Special event page. 
-* __Jayce__:
-	* Develop a search feature that allows users to find nightclubs by entering keywords 
-	* Integrate Location-Based Search
-	* Implement a feature to indicate whether a nightclub is currently open or closed.
-
-### Issues to Resolve
-* Data: Map's marker not display correctly: Wrong center even when assigned argument is coordinates retrieve from DB
-* Data: Need to resize images to be more uniform in dimension. Window.toScroll not working properly.
-* Route: If on localhost:3000/data/ and then click on Record List/Create/etc. on navigation bar, route will redirect to localhost:3000/data/recordList, etc.
 
 - - - -
 <a name="room-for-improvement"></a>
